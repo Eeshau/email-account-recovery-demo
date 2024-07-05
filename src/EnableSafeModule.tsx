@@ -1,4 +1,6 @@
 import { Button } from "./components/Button";
+import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
+
 import {
   safe7579,
   safeRecoveryModule,
@@ -182,7 +184,6 @@ const EnableSafeModule = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: '100vh',
         gap: "2rem",
         flexDirection: "column",
       }}
@@ -191,6 +192,7 @@ const EnableSafeModule = () => {
         disabled={isEnableModalLoading}
         loading={isEnableModalLoading}
         onClick={enableSafe7579Module}
+        endIcon={<AccountBalanceWalletOutlinedIcon/>}
       >
         Enable Safe ERC-7579 Module
       </Button>

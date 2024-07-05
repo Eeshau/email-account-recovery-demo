@@ -1,11 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", sans-serif;;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,11 +26,10 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 h1 {
@@ -36,13 +38,13 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 5px;
+  border: 1px solid #94969C;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: rgba(0, 255, 255, 0);
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -86,6 +88,7 @@ button:focus-visible {
   }
 }
 
+/* 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -103,4 +106,4 @@ button {
   border-image-source: linear-gradient(144.35deg, #0069E4 33.65%, #37C3FF 93.17%);
   padding: 22px;
 }
-
+ */
